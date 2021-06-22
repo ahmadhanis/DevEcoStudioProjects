@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DependentLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:width="match_parent"
+    ohos:alignment="center"
+    ohos:padding="50fp"
+    ohos:height="match_parent">
+    <Text
+        ohos:id="$+id:text"
+        ohos:width="match_content"
+        ohos:height="match_content"
+        ohos:text="Simple Calculator"
+        ohos:text_color="#000000"
+        ohos:text_size="32fp"
+        />
+    <TextField
+        ohos:id="$+id:text_field"
+        ohos:height="match_content"
+        ohos:text_input_type="pattern_number"
+        ohos:width="match_parent"
+        ohos:hint="Enter first number"
+        ohos:text_alignment="vertical_center"
+        ohos:left_padding="24vp"
+        ohos:right_padding="24vp"
+        ohos:top_padding="8vp"
+        ohos:bottom_padding="8vp"
+        ohos:background_element="$graphic:background_text_field"
+        ohos:element_cursor_bubble="$graphic:ele_cursor_bubble"
+        ohos:below="$id:text"
+        ohos:text_size="32vp"
+        ohos:margin="10vp"
+        ohos:text_color="#000000"
+        />
+    <TextField
+        ohos:id="$+id:text_fieldb"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:hint="Enter second number"
+        ohos:text_input_type="pattern_number"
+        ohos:text_alignment="vertical_center"
+        ohos:background_element="$graphic:background_text_field"
+        ohos:left_padding="24vp"
+        ohos:right_padding="24vp"
+        ohos:top_padding="8vp"
+        ohos:bottom_padding="8vp"
+        ohos:text_color="#000000"
+        ohos:text_size="32vp"
+        ohos:margin="10vp"
+        ohos:below="$id:text_field"/>
+    <Button
+        ohos:id="$+id:button"
+        ohos:width="match_content"
+        ohos:height="match_content"
+        ohos:text="Calculate"
+        ohos:text_size="19fp"
+        ohos:text_color="#FFFFFF"
+        ohos:top_padding="8vp"
+        ohos:bottom_padding="8vp"
+        ohos:right_padding="70vp"
+        ohos:left_padding="70vp"
+        ohos:below="$id:text_fieldb"
+        ohos:margin="10vp"
+        ohos:background_element="$graphic:background_button"/>
+    <Text
+        ohos:id="$+id:textresult"
+        ohos:width="match_content"
+        ohos:height="match_content"
+        ohos:text="Result"
+        ohos:text_color="#000000"
+        ohos:below="$id:button"
+        ohos:text_size="32fp"
+        />
+</DependentLayout>

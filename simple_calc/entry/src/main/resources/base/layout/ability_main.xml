@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:alignment="center"
+    ohos:padding="60vp"
+    ohos:orientation="vertical">
+
+    <Text
+        ohos:id="$+id:text_helloworld"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:background_element="$graphic:background_ability_main"
+        ohos:layout_alignment="horizontal_center"
+        ohos:text="Simple Calculator"
+        ohos:text_size="60vp"
+        />
+    <TextField
+        ohos:id="$+id:tf_numa"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:hint="Enter first number"
+        ohos:text_alignment="vertical_center"
+        ohos:left_padding="24vp"
+        ohos:right_padding="24vp"
+        ohos:top_padding="8vp"
+        ohos:bottom_padding="8vp"
+        ohos:multiple_lines="false"
+        ohos:text_input_type="pattern_number"
+        ohos:background_element="$graphic:background_text_field"
+        ohos:margin="10vp"
+        ohos:text_size="20vp"
+        />
+    <TextField
+        ohos:id="$+id:tf_numb"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:hint="Enter second number"
+        ohos:text_alignment="vertical_center"
+        ohos:left_padding="24vp"
+        ohos:right_padding="24vp"
+        ohos:top_padding="8vp"
+        ohos:bottom_padding="8vp"
+        ohos:multiple_lines="false"
+        ohos:text_input_type="pattern_number"
+        ohos:background_element="$graphic:background_text_field"
+        ohos:margin="10vp"
+        ohos:text_size="20vp"
+        />
+    <Button
+        ohos:id="$+id:button"
+        ohos:width="match_content"
+        ohos:height="match_content"
+        ohos:text_size="27fp"
+        ohos:text="Calculator"
+        ohos:background_element="$graphic:background_button"
+        ohos:left_margin="15vp"
+        ohos:bottom_margin="15vp"
+        ohos:right_padding="8vp"
+        ohos:left_padding="8vp"
+        ohos:text_color="white"
+        ohos:padding="20vp"
+        />
+    <Text
+        ohos:id="$+id:text_result"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:background_element="$graphic:background_ability_main"
+        ohos:layout_alignment="horizontal_center"
+        ohos:text="Result:"
+        ohos:text_size="40vp"
+        />
+</DirectionalLayout>
